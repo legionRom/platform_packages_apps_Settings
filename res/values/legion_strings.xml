@@ -19,6 +19,12 @@
     <string name="build_date_default">2015-01-01-0000</string>
     <string name="keywords_build_date">build date, build info</string>
 
-
     <string name="suggestion_button_close">Close</string>
+
+    <!-- LegionOS Updater -->
+    <string name="update_settings_title">LegionOS Updater</string>
+    <string name="update_settings_summary">Check for the latest version of the rom</string>
+    <string name="update_package" translatable="false">org.lineageos.updater</string>
+    <string name="update_activity" translatable="false">org.lineageos.updater.UpdatesActivity</string>
+
 </resources>

@@ -22,6 +22,17 @@
     settings:initialExpandedChildrenCount="4">
 
     <Preference
+        android:key="update_settings"
+        android:title="@string/update_settings_title"
+        android:summary="@string/update_settings_summary"
+        android:icon="@drawable/ic_system_update"
+        android:order="-35">
+        <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="@string/update_package"
+                android:targetClass="@string/update_activity" />
+    </Preference>
+
+    <Preference
         android:key="reset_dashboard"
         android:title="@string/reset_dashboard_title"
         android:summary="@string/reset_dashboard_summary"
@@ -30,7 +41,7 @@
         android:fragment="com.android.settings.system.ResetDashboardFragment"
         settings:controller="com.android.settings.system.ResetPreferenceController"/>
 
-    <!-- System updates -->
+    <!-- System updates
     <Preference
         android:key="system_update_settings"
         android:title="@string/system_update_settings_list_item_title"
@@ -50,6 +61,7 @@
         <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="@string/additional_system_update"
                 android:targetClass="@string/additional_system_update_menu" />
+-->
     </Preference>
 
 </PreferenceScreen>

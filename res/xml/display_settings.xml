@@ -131,6 +131,11 @@
         android:key="theme"
         android:title="@string/color_theme"
         android:summary="@string/summary_placeholder" />
+		
+    <com.android.settings.display.FontDialogPreference
+        android:key="custom_font"
+        android:title="@string/font_picker_title"
+        android:persistent="false" />
 
     <ListPreference
         android:key="systemui_theme"
@@ -192,4 +197,3 @@
     </Preference>
 
 </PreferenceScreen>
-

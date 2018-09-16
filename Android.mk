@@ -20,6 +20,9 @@ LOCAL_USE_AAPT2 := true
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_SRC_FILES += $(call all-java-files-under, ../Beast/src)
+LOCAL_SRC_FILES += $(call all-java-files-under, ../SmartNavSettings/src)
+
+LOCAL_FULL_LIBS_MANIFEST_FILES += $(LOCAL_PATH)/AndroidManifest-SmartNav.xml
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     $(ANDROID_SUPPORT_DESIGN_TARGETS) \
@@ -52,7 +55,10 @@ LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/v7/preference/res \
     frameworks/support/v14/preference/res \
     frameworks/support/v7/recyclerview/res \
-    packages/apps/Beast/res
+    packages/apps/Beast/res \
+    packages/apps/SmartNavSettings/res
+
+LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 LOCAL_AAPT_FLAGS := --auto-add-overlay \
     --extra-packages android.support.v7.preference \

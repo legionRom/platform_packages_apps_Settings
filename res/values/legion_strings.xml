@@ -182,9 +182,12 @@
     <string name="font_picker_progress">Applying your desired font\u2026</string>
 	
     <!-- Manage applications, package string displayed in app snippet -->
-    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
-	
-	<!-- App Ops Categories -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string> 
+
+    <!-- Toolbar -->
+    <string name="settings_head_title">LegionOS Settings</string>
+
+    <!-- App Ops Categories -->
     <string name="app_ops_cat_location">Location</string>
     <string name="app_ops_cat_personal">Personal</string>
     <string name="app_ops_cat_messaging">Messaging</string>

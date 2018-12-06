@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-    <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!--LegionOS-->
-    <string name="legion_title" translatable="false">LegionOS</string>
-
-    <!-- About phone screen, legion version -->
-    <string name="legion_version">Legion version</string>
-    <string name="legion_version_default">Unknown</string>
-    <string name="keywords_legion_version">legion version</string>
-
-    <!-- About phone screen, build date -->
-    <string name="build_date">Build date</string>
-    <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">build date, build info</string>
+    <!-- Selinux -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <!-- About phone cards -->
+    <string name="card1">Device Model</string>
+    <string name="card2">Status</string>
+    <string name="card3">Android Version</string>
+    <string name="card4">Pearl Version</string>
+    <string name="card5">SeLinux Status</string>
+    <string name="card6">Maintainer</string>
+    <string name="cpu">CPU</string>
+    <string name="unknown">Unknown</string>
+    <string name="storage">Storage</string>
+    <string name="status_default">Phone number, Signal, etc.</string>
 </resources>

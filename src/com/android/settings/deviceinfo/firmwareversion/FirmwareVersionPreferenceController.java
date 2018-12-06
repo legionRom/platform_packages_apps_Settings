@@ -33,7 +33,15 @@ public class FirmwareVersionPreferenceController extends BasePreferenceControlle
     }
 
     @Override
-    public CharSequence getSummary() {
-        return Build.VERSION.RELEASE;
+    public String getPreferenceKey() {
+        return FIRMWARE_VERSION_KEY;
+    }
+
+    @Override
+    public boolean handlePreferenceTreeClick(Preference preference) {
+        if (!TextUtils.equals(preference.getKey(), getPreferenceKey())) {
+            return false;
+        }
+	return true;
     }
 }

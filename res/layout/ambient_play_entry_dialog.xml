@@ -6,7 +6,7 @@
     android:background="?android:attr/colorPrimary"
     android:orientation="vertical">
 
-    <com.android.settings.lean.ambient.history.AmbientPlayHistoryPreferenceEntryView
+    <com.android.settings.beast.ambient.history.AmbientPlayHistoryPreferenceEntryView
         android:id="@+id/entryView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

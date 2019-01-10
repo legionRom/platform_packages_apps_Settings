@@ -138,11 +138,11 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
-import com.android.settings.lean.ambient.AmbientPlaySettings;
+import com.android.settings.beast.ambient.AmbientPlaySettings;
 
-import com.lean.settings.LeanSettings;
+import com.beast.settings.BeastSettings;
 
-import com.android.settings.lean.ambient.history.AmbientPlayHistory;
+import com.android.settings.beast.ambient.history.AmbientPlayHistory;
 
 public class SettingsGateway {
 
@@ -269,9 +269,9 @@ public class SettingsGateway {
             DirectoryAccessDetails.class.getName(),
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
-            LeanSettings.class.getName(),
+            BeastSettings.class.getName(),
             AmbientPlayHistory.class.getName(),
-	    LeanSettings.class.getName(),
+	    BeastSettings.class.getName(),
 	    ScreenStabilization.class.getName(),
             AmbientPlaySettings.class.getName()
     };
@@ -312,8 +312,8 @@ public class SettingsGateway {
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.MyDeviceInfoActivity.class.getName(),
-            Settings.LeanSettingsActivity.class.getName(),
-	    Settings.LeanSettingsActivity.class.getName(),
+            Settings.BeastSettingsActivity.class.getName(),
+	    Settings.BeastSettingsActivity.class.getName(),
 	    Settings.ScreenStabilizationActivity.class.getName(),
     };
 }

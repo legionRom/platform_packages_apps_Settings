@@ -1,4 +1,4 @@
-package com.android.settings.lean.ambient.history.utils;
+package com.android.settings.beast.ambient.history.utils;
 
 import android.content.Context;
 import android.text.format.DateFormat;

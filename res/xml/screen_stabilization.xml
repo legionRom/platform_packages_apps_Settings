@@ -19,7 +19,7 @@
     android:fragment="com.android.settings.custom.ScreenStabilization"
     android:title="@string/screen_stabilization_title">
     
-    <com.lean.settings.preferences.SystemSettingSwitchPreference
+    <com.beast.settings.preferences.SystemSettingSwitchPreference
 	android:key="stabilization_enable"
 	android:title="@string/screen_stabilization_enable"
 	android:summary="@string/screen_stabilization_enable_summary"

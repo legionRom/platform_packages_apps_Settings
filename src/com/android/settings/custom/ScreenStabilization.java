@@ -73,7 +73,7 @@ public class ScreenStabilization extends SettingsPreferenceFragment implements O
     
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.LEAN;
+        return MetricsEvent.BEAST;
     }
 
     @Override

@@ -45,7 +45,7 @@
         android:key="ambient_play"
         android:title="@string/ambient_play_title"
         android:summary="@string/ambient_play_summary"
-        android:fragment="com.android.settings.lean.ambient.AmbientPlaySettings" />
+        android:fragment="com.android.settings.beast.ambient.AmbientPlaySettings" />
 
     <!-- Work profile settings are at the bottom with high order value to avoid users thinking that
          any of the above settings (including dynamic) are specific to the work profile. -->

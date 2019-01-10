@@ -13,7 +13,7 @@
  * if not, see <http://www.gnu.org/licenses>.
  */
 
-package com.android.settings.lean.ambient.history;
+package com.android.settings.beast.ambient.history;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -36,9 +36,9 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.android.internal.util.lean.ambient.play.AmbientPlayHistoryEntry;
-import com.android.internal.util.lean.ambient.play.AmbientPlayHistoryManager;
-import com.android.settings.lean.ambient.history.utils.TimeDateUtils;
+import com.android.internal.util.beast.ambient.play.AmbientPlayHistoryEntry;
+import com.android.internal.util.beast.ambient.play.AmbientPlayHistoryManager;
+import com.android.settings.beast.ambient.history.utils.TimeDateUtils;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
@@ -155,7 +155,7 @@ public class AmbientPlayHistory extends SettingsPreferenceFragment implements Pr
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.LEAN;
+        return MetricsEvent.BEAST;
     }
 
     private void updateListState() {

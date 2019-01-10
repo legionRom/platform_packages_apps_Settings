@@ -13,13 +13,13 @@
  * if not, see <http://www.gnu.org/licenses>.
  */
 
-package com.android.settings.lean.ambient.history;
+package com.android.settings.beast.ambient.history;
 
 import android.content.Context;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceCategory;
 
-import com.android.settings.lean.ambient.history.utils.TimeDateUtils;
+import com.android.settings.beast.ambient.history.utils.TimeDateUtils;
 
 import com.android.settings.R;
 

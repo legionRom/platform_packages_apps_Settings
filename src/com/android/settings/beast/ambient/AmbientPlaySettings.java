@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.lean.ambient;
+package com.android.settings.beast.ambient;
 
 import android.content.Context;
 import android.content.Intent;
@@ -35,9 +35,9 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import android.content.BroadcastReceiver;
 
-import com.android.settings.lean.ambient.history.AmbientPlayHistoryPreference;
+import com.android.settings.beast.ambient.history.AmbientPlayHistoryPreference;
 
-import com.android.internal.util.lean.ambient.play.AmbientPlayHistoryManager;
+import com.android.internal.util.beast.ambient.play.AmbientPlayHistoryManager;
 
 public class AmbientPlaySettings extends SettingsPreferenceFragment implements CompoundButton.OnCheckedChangeListener {
 
@@ -93,7 +93,7 @@ public class AmbientPlaySettings extends SettingsPreferenceFragment implements C
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.LEAN;
+        return MetricsEvent.BEAST;
     }
 
     private boolean isEnabled() {

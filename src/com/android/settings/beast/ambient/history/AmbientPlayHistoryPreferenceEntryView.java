@@ -13,7 +13,7 @@
  * if not, see <http://www.gnu.org/licenses>.
  */
 
-package com.android.settings.lean.ambient.history;
+package com.android.settings.beast.ambient.history;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -22,7 +22,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.android.settings.lean.ambient.history.utils.TimeDateUtils;
+import com.android.settings.beast.ambient.history.utils.TimeDateUtils;
 
 import com.android.settings.R;
 

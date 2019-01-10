@@ -21,23 +21,23 @@ import android.support.annotation.VisibleForTesting;
 
 import com.android.settings.R;
 
-public class LeanVersionDialogController {
+public class BeastVersionDialogController {
 
     @VisibleForTesting
-    private static final int LEAN_VERSION_VALUE_ID = R.id.lean_version;
-    private static final String LEAN_VERSION = "lean_version";
-    private static final String LEAN_PROP = "ro.lean.version";
+    private static final int BEAST_VERSION_VALUE_ID = R.id.beast_version;
+    private static final String BEAST_VERSION = "beast_version";
+    private static final String BEAST_PROP = "ro.beast.version";
 
     private final FirmwareVersionDialogFragment mDialog;
     private final Context mContext;
 
-    public LeanVersionDialogController(FirmwareVersionDialogFragment dialog) {
+    public BeastVersionDialogController(FirmwareVersionDialogFragment dialog) {
         mDialog = dialog;
         mContext = dialog.getContext();
     }
 
     public void initialize() {
-         mDialog.setText(LEAN_VERSION_VALUE_ID, SystemProperties.get(LEAN_PROP,
+         mDialog.setText(BEAST_VERSION_VALUE_ID, SystemProperties.get(BEAST_PROP,
                 mContext.getResources().getString(R.string.device_info_default)));
     }
 }

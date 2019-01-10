@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.lean.sound;
+package com.android.settings.beast.sound;
 
 import java.util.HashMap;
 import java.util.HashSet;

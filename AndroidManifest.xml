@@ -3339,7 +3339,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.lean.ambient.history.AmbientPlayHistory" />
+                android:value="com.android.settings.beast.ambient.history.AmbientPlayHistory" />
         </activity>
 
 	<!-- Ambient play settings activity. -->
@@ -3351,7 +3351,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.lean.ambient.AmbientPlaySettings" />
+                android:value="com.android.settings.beast.ambient.AmbientPlaySettings" />
         </activity>
 
         <provider android:name=".slices.SettingsSliceProvider"
@@ -3403,12 +3403,12 @@
 
         <!-- This is the longest AndroidManifest.xml ever. -->
 
-        <activity android:name="Settings$LeanSettingsActivity"
-            android:label="@string/lean_settings_title"
-            android:icon="@drawable/ic_homepage_lean"
+        <activity android:name="Settings$BeastSettingsActivity"
+            android:label="@string/beast_settings_title"
+            android:icon="@drawable/ic_homepage_beast"
             android:taskAffinity="">
             <intent-filter android:priority="9">
-                <action android:name="lean.settings.LeanSettings" />
+                <action android:name="beast.settings.BeastSettings" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
@@ -3423,11 +3423,11 @@
             <meta-data android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.homepage" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.lean.settings.LeanSettings" />
+                android:value="com.beast.settings.BeastSettings" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
             <meta-data android:name="com.android.settings.summary"
-                android:resource="@string/lean_settings_summary"/>
+                android:resource="@string/beast_settings_summary"/>
         </activity>
 
     </application>

@@ -166,7 +166,7 @@ public class Settings extends SettingsActivity {
     public static class AccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
 
-    public static class LeanSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class BeastSettingsActivity extends SettingsActivity { /* empty */ }
 
     // Ambient play
     public static class AmbientPlayHistoryActivity extends SettingsActivity { /* empty */ }

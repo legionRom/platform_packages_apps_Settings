@@ -90,7 +90,7 @@
         android:key="volume_steps"
 	android:title="@string/volume_steps_title"
 	android:summary="@string/volume_steps_summary"
-	android:fragment="com.android.settings.lean.sound.VolumeSteps"
+	android:fragment="com.android.settings.beast.sound.VolumeSteps"
 	android:order="-120" />
 								
     <!-- Interruptions -->
@@ -116,7 +116,7 @@
         android:title="@string/ambient_play_title"
         android:summary="@string/ambient_play_summary"
         android:order="-105"
-        android:fragment="com.android.settings.lean.ambient.AmbientPlaySettings" />
+        android:fragment="com.android.settings.beast.ambient.AmbientPlaySettings" />
 
     <!-- Phone ringtone -->
     <com.android.settings.DefaultRingtonePreference

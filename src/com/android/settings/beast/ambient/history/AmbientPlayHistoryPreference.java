@@ -1,4 +1,4 @@
-package com.android.settings.lean.ambient.history;
+package com.android.settings.beast.ambient.history;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -6,8 +6,8 @@ import android.content.Intent;
 import android.support.v7.preference.Preference;
 import android.util.AttributeSet;
 
-import com.android.internal.util.lean.ambient.play.AmbientPlayHistoryEntry;
-import com.android.internal.util.lean.ambient.play.AmbientPlayHistoryManager;
+import com.android.internal.util.beast.ambient.play.AmbientPlayHistoryEntry;
+import com.android.internal.util.beast.ambient.play.AmbientPlayHistoryManager;
 
 import com.android.settings.R;
 

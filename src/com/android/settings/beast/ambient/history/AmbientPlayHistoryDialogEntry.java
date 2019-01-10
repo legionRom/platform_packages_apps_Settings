@@ -13,7 +13,7 @@
  * if not, see <http://www.gnu.org/licenses>.
  */
 
-package com.android.settings.lean.ambient.history;
+package com.android.settings.beast.ambient.history;
 
 import android.app.SearchManager;
 import android.content.Context;

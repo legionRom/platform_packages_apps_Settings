@@ -323,6 +323,8 @@
 
     <!-- Charging vibration -->
     <string name="charging_vibro_title">Charging vibration</string>
+	
+    <string name="battery_temp">Температура батареи</string>
 
  </resources>
 

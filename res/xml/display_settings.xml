@@ -126,14 +126,19 @@
         android:title="@string/color_theme"
         android:summary="@string/summary_placeholder" />
 		
-    <com.android.settings.display.FontDialogPreference
-        android:key="custom_font"
-        android:title="@string/font_picker_title"
-        android:persistent="false" />
-		
     <PreferenceCategory
         android:key="theme_category"
         android:title="@string/theme_category_title">
+		
+    <Preference
+         android:key="omni_theme_select_activity"
+         android:title="@string/beast_theme_select_title"
+         android:summary="@string/beast_theme_select_summary"
+         android:persistent="false" >
+         <intent android:action="android.intent.action.MAIN"
+                 android:targetPackage="org.omnirom.omnistyle"
+                 android:targetClass="org.omnirom.omnistyle.BrowseThemesActivity" />
+    </Preference>
 
     <ListPreference
         android:key="systemui_theme"
@@ -150,11 +155,31 @@
     <Preference
         android:key="accent_picker"
 	android:title="@string/theme_accent_picker_title" />
+	
+    <ListPreference
+        android:key="qs_tile_style"
+        android:title="@string/qs_tile_style_title"
+        android:persistent="false"
+        android:entries="@array/qs_selector_entries"
+        android:entryValues="@array/qs_selector_values" />
+
+    <ListPreference
+         android:key="qs_header_style"
+         android:title="@string/qs_header_style_title"
+         android:persistent="false"
+         android:entries="@array/qs_header_style_entries"
+         android:entryValues="@array/qs_header_style_values" />
+
     </PreferenceCategory >
 
     <PreferenceCategory
         android:key="density_category"
         android:title="@string/density_category">
+		
+    <com.android.settings.display.FontDialogPreference
+        android:key="custom_font"
+        android:title="@string/font_picker_title"
+        android:persistent="false" />
 
         <Preference
             android:key="font_size"
@@ -174,29 +199,5 @@
             android:title="@string/developer_smallest_width" />
 
     </PreferenceCategory>
-   
-    <ListPreference
-        android:key="qs_tile_style"
-        android:title="@string/qs_tile_style_title"
-        android:persistent="false"
-        android:entries="@array/qs_selector_entries"
-        android:entryValues="@array/qs_selector_values" />
-
-    <ListPreference
-         android:key="qs_header_style"
-         android:title="@string/qs_header_style_title"
-         android:persistent="false"
-         android:entries="@array/qs_header_style_entries"
-         android:entryValues="@array/qs_header_style_values" />
-
-    <Preference
-         android:key="omni_theme_select_activity"
-         android:title="@string/beast_theme_select_title"
-         android:summary="@string/beast_theme_select_summary"
-         android:persistent="false" >
-         <intent android:action="android.intent.action.MAIN"
-                 android:targetPackage="org.omnirom.omnistyle"
-                 android:targetClass="org.omnirom.omnistyle.BrowseThemesActivity" />
-    </Preference>
 
 </PreferenceScreen>

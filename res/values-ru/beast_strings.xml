@@ -325,6 +325,14 @@
     <string name="charging_vibro_title">Charging vibration</string>
 	
     <string name="battery_temp">Температура батареи</string>
+	
+    <!-- Accent picker -->
+    <string name="theme_category_title">Внешний вид</string>
+    <string name="systemui_theme_style_title">Цвет фона</string>
+    <string name="accent_picker_dialog_title">Выберите цвет акцента</string>
+    <string name="theme_accent_picker_title">Цвет акцента</string>
+    <string name="theme_accent_picker_summary">Выберите цвет акцента системы</string>
+    <string name="theme_accent_picker_default">По умолчанию</string>
 
  </resources>
 

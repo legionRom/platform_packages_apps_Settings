@@ -28,7 +28,7 @@ import com.beast.settings.preferences.Utils;
 public class OTAPreferenceController extends AbstractPreferenceController
                 implements PreferenceControllerMixin {
 
-    private static final String KEY_NOS_UPDATES = "beast_updates";
+    private static final String KEY_BEAST_UPDATES = "beast_updates";
     Context mContext;
 
     public OTAPreferenceController(Context context) {
@@ -43,6 +43,6 @@ public class OTAPreferenceController extends AbstractPreferenceController
 
     @Override
     public String getPreferenceKey() {
-        return KEY_NOS_UPDATES;
+        return KEY_BEAST_UPDATES;
     }
 }

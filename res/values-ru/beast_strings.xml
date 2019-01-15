@@ -20,30 +20,25 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Manual provisioning support -->
-    <string name="sim_disabled">Отключен</string>
-    <string name="sim_missing">отсутствует или неисправен</string>
-    <string name="sim_enabler_need_disable_sim">SIM-карта будет отключена. Продолжить?</string>
+    <string name="sim_disabled">выключена</string>
+    <string name="sim_missing">отсутствует или неисправна</string>
+    <string name="sim_enabler_need_disable_sim">SIM-карта будет деактивирована. Хотите продолжить?</string>
     <string name="sim_enabler_will_disable_sim_title">Внимание</string>
-    <string name="sim_enabler_need_switch_data_service">Эта SIM-карта будет отключена, SIM-карта <xliff:g id="slotid">%1$s</xliff:g> будет использоваться для передачи данных. Продолжить?</string>
-    <string name="sim_enabler_airplane_on">Невозможно выполнить операцию при включенном режиме полета.</string>
-    <string name="sim_enabler_in_call">Невозможно выполнить операцию во время разговора.</string>
-    <string name="sim_enabler_both_inactive">Отключение всех SIM-карт невозможно.</string>
-    <string name="sim_enabler_enabling">Подключение\u2026</string>
-    <string name="sim_enabler_disabling">Отключение\u2026</string>
-    <string name="sub_activate_success">SIM активна.</string>
-    <string name="sub_activate_failed">Ошибка активации.</string>
-    <string name="sub_deactivate_success">SIM отключена.</string>
-    <string name="sub_deactivate_failed">Ошибка отключения.</string>
-
-    <!-- Fingerprint location message -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Locate the fingerprint sensor on the left side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Locate the fingerprint sensor on the right side of your phone.</string>
+    <string name="sim_enabler_need_switch_data_service">Эта SIM-карта будет отключена и SIM-карта <xliff:g id="slotid">%1$s</xliff:g> будет использоваться для передачи данных. Хотите продолжить?</string>
+    <string name="sim_enabler_airplane_on">Невозможно выполнить операцию, когда включен режим полета.</string>
+    <string name="sim_enabler_in_call">Невозможно выполнить операцию во время вызова.</string>
+    <string name="sim_enabler_both_inactive">Невозможно отключить все SIM-карты</string>
+    <string name="sim_enabler_enabling">Активация\u2026</string>
+    <string name="sim_enabler_disabling">Деактивация\u2026</string>
+    <string name="sub_activate_success">SIM-карта активирована.</string>
+    <string name="sub_activate_failed">Активация не удалась.</string>
+    <string name="sub_deactivate_success">SIM-карта деактивирована.</string>
+    <string name="sub_deactivate_failed">Деактивация не удалась.</string>
 
     <!-- Advanced night mode brightness -->
-    <string name="night_brightness_category">Якость</string>
-    <string name="night_brightness_value_title">Минимальная яркость в "Ночном режиме"</string>
-    <string name="night_bright_disabled">Отключить</string>
+    <string name="night_brightness_category">Яркость</string>
+    <string name="night_brightness_value_title">Яркость в ночном режиме</string>
+    <string name="night_bright_disabled">Отключено</string>
     <string name="night_bright_minimum">Минимальная яркость</string>
     <string name="night_bright_low">Низкая яркость</string>
     <string name="night_bright_medium">Средняя яркость</string>
@@ -53,9 +48,9 @@
     <string name="unlock_quick_unlock_control_summary">Быстрая разблокировка устройства при правильно введенном PIN или пароле</string>
 
     <!-- Battery Stats -->
-    <string name="battery_stats_reset">Сброс статистики</string>
-    <string name="battery_stats_message">Статистика использования батареи будет сброшена</string>
-    <string name="ok_string">Ок</string>
+    <string name="battery_stats_reset">Сбросить статистику</string>
+    <string name="battery_stats_message">Статистика батареи будет сброшена</string>
+    <string name="ok_string">ОК</string>
  
     <!-- Beast -->
     <string name="beast_settings_title">Настройки Beast</string>
@@ -64,11 +59,11 @@
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Варианты вибрации при вызове</string>
     <string name="incall_vibrate_connect_title">Вибрация при подключении</string>
-    <string name="incall_vibrate_call_wait_title">Вибрировать при ожидании вызова</string>
+    <string name="incall_vibrate_call_wait_title">Вибрировать при ожидании</string>
     <string name="incall_vibrate_disconnect_title">Вибрация при отключении</string>
 	
     <!-- Battery percentage -->
-    <string name="battery_style_category_title">Заряд батареи</string>
+    <string name="battery_style_category_title">Отображение заряда батареи</string>
     <string name="status_bar_battery_percentage_title">В процентах</string>
     <string name="status_bar_battery_percentage_default">Скрыть</string>
     <string name="status_bar_battery_percentage_text_next">После значка</string>
@@ -88,8 +83,8 @@
     <string name="screenshot_shutter_sound_title">Звук при создании скриншота</string>
 
     <!-- Less Notification sounds -->
-    <string name="less_notification_sounds_title">Less frequent notification sounds</string>
-    <string name="less_notification_sounds_summary">Play the notification sound of each app only once per set time period</string>
+    <string name="less_notification_sounds_title">Менее частые уведомления</string>
+    <string name="less_notification_sounds_summary">Воспроизводите звук уведомления каждого приложения только один раз за установленный период времени</string>
     <string name="less_notification_sounds_default">По умолчанию</string>
     <string name="less_notification_sounds_3s">Каждые 3 секунды</string>
     <string name="less_notification_sounds_5s">Каждые 5 секунд</string>
@@ -105,8 +100,8 @@
     <string name="density_category">Настройка плотности экрана</string>
 
     <!-- QS tile styles -->
-    <string name="qs_tile_style_title">Стиль быстрых настроек</string>
-    <string name="qstile_default">Default</string>
+    <string name="qs_tile_style_title">Стиль плиток быстрых настроек</string>
+    <string name="qstile_default">По умолчанию</string>
     <string name="qstile_circle_trim">Круг с отделкой</string>
     <string name="qstile_dual_tone_circle">Двухцветный круг</string>
     <string name="qstile_squircle_trim">Скругление с отделкой</string>
@@ -137,21 +132,21 @@
     <string name="beast_theme_select_summary">Поиск и выбор установленных тем</string>
 
    <!-- Ambient Play -->
-    <string name="ambient_play_summary">Показывать ближайшие песни</string>
-    <string name="ambient_play_lockscreen_title">Показывать песни на экране блокировки</string>
+    <string name="ambient_play_summary">Сейчас играет</string>
+    <string name="ambient_play_lockscreen_title">На экране блокировки</string>
     <string name="ambient_play_notifications_title">Уведомления</string>
     <string name="ambient_play_switch_bar_on">Вкл</string>
     <string name="ambient_play_switch_bar_off">Выкл</string>
-    <string name="ambient_play_help_text">Когда рядом играет музыка, вы можете увидеть название песни и исполнителя. Расходует заряд батареи.</string>
-    <string name="ambient_play_history">Ранее звучавшие композиции</string>
-    <string name="ambient_play_loading_data">Идет загрузка…</string>
+    <string name="ambient_play_help_text">Когда музыка играет поблизости, вы можете увидеть название песни и исполнителя. Эта функция требует включенной передачи данных. Возможно увеличение расхода батареи.</string> 
+    <string name="ambient_play_history">История</string>
+    <string name="ambient_play_loading_data">Загружаю данные…</string>
     <string name="ambient_play_history_today">Сегодня</string>
     <string name="ambient_play_history_yesterday">Вчера</string>
-    <string name="ambient_play_history_dialog_play">Сейчас играет</string>
-    <string name="ambient_play_history_dialog_search">Искать в интернете</string>
+    <string name="ambient_play_history_dialog_play">Проиграть</string>
+    <string name="ambient_play_history_dialog_search">Искать в сети</string>
     <string name="ambient_play_history_dialog_remove">Удалить</string>
-    <string name="ambient_play_history_empty">Пока что здесь пусто</string>
-    <string name="ambient_play_history_menu_remove_all">Удалить все</string>
+    <string name="ambient_play_history_empty">История пуста</string>
+    <string name="ambient_play_history_menu_remove_all">Удалить всё</string>
     <string name="ambient_play_history_menu_add_to_home">Добавить на домашний экран</string>
     <string name="ambient_play_history_dialog_remove_all_confirmation">Вы уверены?</string>
 
@@ -165,17 +160,17 @@
     <string name="stabilization_velocity_amplitude_title">Velocity amplitude</string>
 
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)"</string>
-    <string name="value_equals_default">def</string>
-    <string name="show_light_on_zen_title">Blink during Do Not Disturb</string>
+    <string name="custom_light_title">Цвет светодиода</string>
+    <string name="custom_light_on_time_title">Длительность свечения светодиода (мс)</string>
+    <string name="custom_light_off_time_title">Длительность затухания светодиода (мс)</string>
+    <string name="value_equals_default">умолч.</string>
+    <string name="show_light_on_zen_title">Включить светодиод в режиме «Не беспокоить»</string>
 
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Поворот</string>
-    <string name="display_rotation_disabled">Отключено</string>
-    <string name="display_rotation_unit">градусы</string>
-    <string name="display_rotation_category_title">Режимы поворота</string>
+    <string name="display_rotation_title">Поворот экрана</string>
+    <string name="display_rotation_disabled">Выключен</string>
+    <string name="display_rotation_unit">градусов</string>
+    <string name="display_rotation_category_title">Режимы вращения</string>
     <string name="display_rotation_0_title">0 градусов</string>
     <string name="display_rotation_90_title">90 градусов</string>
     <string name="display_rotation_180_title">180 градусов</string>
@@ -208,21 +203,21 @@
     <string name="selinux_status_enforcing">Блокировка</string>
 
    <!-- Full Nav Bar -->
-    <string name="full_gesture_mode_title">Включить управление жестами</string>
-   <string name="full_gesture_mode_summary">Этот режим отключит кнопку «назад», для осуществления действие кнопки «назад» проведите пальцем влево на панели навигации. Right swipe will still trigger the last-app action and left swipe will move apps. To go home you will be able to tap on any navbar empty space, not only the home button.</string>
-    <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
-    <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
+    <string name="full_gesture_mode_title">Включить режим жестов</string>
+    <string name="full_gesture_mode_summary">Этот режим отключает кнопку Назад. Вы можете активировать действие кнопки Назад с помощью свайпа влево на навбаре. Свайп вправо открывает последнее приложение и обзор недавних приложений. Чтобы вернуться на домашний экран вы можете использовать любое свободное место на навбаре, а не только домашнюю кнопку. Когда откыта клавиатура, длительное нажатие на навбаре передвигает курсор.</string>
+    <string name="full_gesture_mode_dt2s_title">Включить двойное нажатие для сна</string>
+    <string name="full_gesture_mode_dt2s_summary">Дважды нажмите на свободном месте навбара чтобы выключить экран.</string>
 	
     <string name="font_picker_title">Менеджер шрифта</string>
     <string name="font_picker_progress">Применить нужный шрифт\u2026</string>
 	
 	<!-- App Ops Categories -->
-    <string name="app_ops_cat_location">Location</string>
-    <string name="app_ops_cat_personal">Personal</string>
-    <string name="app_ops_cat_messaging">Messaging</string>
-    <string name="app_ops_cat_media">Media</string>
-    <string name="app_ops_cat_device">Device</string>
-    <string name="app_ops_cat_bootup">Bootup</string>
+    <string name="app_ops_cat_location">Местоположение</string>
+    <string name="app_ops_cat_personal">Личные данные</string>
+    <string name="app_ops_cat_messaging">SMS/MMS</string>
+    <string name="app_ops_cat_media">Мультимедиа</string>
+    <string name="app_ops_cat_device">Устройство</string>
+    <string name="app_ops_cat_bootup">Загрузка</string>
 
     <!-- App ops labels -->
     <string name="app_ops_access_camera">camera</string>
@@ -319,10 +314,10 @@
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
 	
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_title">Звук при снятии скриншота</string>
 
     <!-- Charging vibration -->
-    <string name="charging_vibro_title">Charging vibration</string>
+    <string name="charging_vibro_title">Звук при подключении зарядки</string>
 	
     <string name="battery_temp">Температура батареи</string>
 	

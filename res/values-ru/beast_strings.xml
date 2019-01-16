@@ -346,6 +346,9 @@
     <!-- OTA -->
     <string name="beastupdate_settings_title">Обновления BeastROMs</string>
     <string name="beastupdate_settings_summary">Поиск обновлений</string>
+	
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Связать громкость звонка и уведомлений</string>
 
  </resources>
 

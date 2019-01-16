@@ -364,6 +364,9 @@
     <!-- OTA -->
     <string name="beastupdate_settings_title">BeastROMs updates</string>
     <string name="beastupdate_settings_summary">Find new updates</string>
+	
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 
  </resources>
 

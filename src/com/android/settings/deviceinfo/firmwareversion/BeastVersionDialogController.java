@@ -26,7 +26,7 @@ public class BeastVersionDialogController {
     @VisibleForTesting
     private static final int BEAST_VERSION_VALUE_ID = R.id.beast_version;
     private static final String BEAST_VERSION = "beast_version";
-    private static final String BEAST_PROP = "ro.beast.version";
+    private static final String BEAST_PROP = "ro.beast.display.version";
 
     private final FirmwareVersionDialogFragment mDialog;
     private final Context mContext;

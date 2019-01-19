@@ -54,6 +54,7 @@ public class DiracSettings extends SettingsPreferenceFragment {
 
         mHeadsetType.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
           public boolean onPreferenceChange(Preference preference, Object newValue) {
+            Toast.makeText(mContext,"Applied HeadSetType : " + String.valueOf(newValue),Toast.LENGTH_SHORT).show();
             int val = Integer.parseInt(newValue.toString());
             AudioEnhancerService.du.setHeadsetType(mContext, val);
             return true;
@@ -62,6 +63,7 @@ public class DiracSettings extends SettingsPreferenceFragment {
 
         mMusicMode.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
           public boolean onPreferenceChange(Preference preference, Object newValue) {
+            Toast.makeText(mContext,"Applied Music Mode : " + String.valueOf(newValue),Toast.LENGTH_SHORT).show();
             int val = Integer.parseInt(newValue.toString());
             AudioEnhancerService.du.setMode(mContext, val);
             return true;
@@ -70,7 +72,7 @@ public class DiracSettings extends SettingsPreferenceFragment {
 
         mDiracPreset.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
           public boolean onPreferenceChange(Preference preference, Object newValue) {
-            Toast.makeText(mContext,String.valueOf(newValue),Toast.LENGTH_SHORT).show();
+            Toast.makeText(mContext,"Applied Level : " + String.valueOf(newValue),Toast.LENGTH_SHORT).show();
             AudioEnhancerService.du.setLevel(mContext, String.valueOf(newValue));
             return true;
           }

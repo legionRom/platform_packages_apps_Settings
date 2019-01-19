@@ -131,25 +131,6 @@
     <string name="omni_theme_select_none">Отключить</string>
     <string name="beast_theme_select_summary">Поиск и выбор установленных тем</string>
 
-   <!-- Ambient Play -->
-    <string name="ambient_play_summary">Сейчас играет</string>
-    <string name="ambient_play_lockscreen_title">На экране блокировки</string>
-    <string name="ambient_play_notifications_title">Уведомления</string>
-    <string name="ambient_play_switch_bar_on">Вкл</string>
-    <string name="ambient_play_switch_bar_off">Выкл</string>
-    <string name="ambient_play_help_text">Когда музыка играет поблизости, вы можете увидеть название песни и исполнителя. Эта функция требует включенной передачи данных. Возможно увеличение расхода батареи.</string> 
-    <string name="ambient_play_history">История</string>
-    <string name="ambient_play_loading_data">Загружаю данные…</string>
-    <string name="ambient_play_history_today">Сегодня</string>
-    <string name="ambient_play_history_yesterday">Вчера</string>
-    <string name="ambient_play_history_dialog_play">Проиграть</string>
-    <string name="ambient_play_history_dialog_search">Искать в сети</string>
-    <string name="ambient_play_history_dialog_remove">Удалить</string>
-    <string name="ambient_play_history_empty">История пуста</string>
-    <string name="ambient_play_history_menu_remove_all">Удалить всё</string>
-    <string name="ambient_play_history_menu_add_to_home">Добавить на домашний экран</string>
-    <string name="ambient_play_history_dialog_remove_all_confirmation">Вы уверены?</string>
-
     <!-- Screen Stabilization -->
     <string name="screen_stabilization_title">Стабилизация экрана</string>
     <string name="screen_stabilization_summary">Настройка значений экранной стабилизации</string>

@@ -142,11 +142,8 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
-import com.android.settings.beast.ambient.AmbientPlaySettings;
 
 import com.beast.settings.BeastSettings;
-
-import com.android.settings.beast.ambient.history.AmbientPlayHistory;
 
 public class SettingsGateway {
 
@@ -274,10 +271,8 @@ public class SettingsGateway {
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             BeastSettings.class.getName(),
-            AmbientPlayHistory.class.getName(),
-	    BeastSettings.class.getName(),
-	    ScreenStabilization.class.getName(),
-            AmbientPlaySettings.class.getName(),
+			BeastSettings.class.getName(),
+			ScreenStabilization.class.getName(),
             NavigationSettingsActivity.class.getName(),
             SmartbarSettingsActivity.class.getName(),
             FlingSettingsActivity.class.getName(),

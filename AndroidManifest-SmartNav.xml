@@ -60,7 +60,7 @@
                 android:value="com.android.settings.smartnav.FlingSettings" />
         </activity>
 
-        <!-- Pulse settings -->
+        <!-- Pulse settings
         <activity android:name="Settings$PulseSettingsActivity"
                 android:label="@string/pulse_settings"
                 android:excludeFromRecents="true">
@@ -70,7 +70,7 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.smartnav.PulseSettings" />
-        </activity>
+        </activity> -->
 
         <!-- System action picker -->
         <activity android:name="com.android.settings.smartnav.ActionPickerDialogActivity"

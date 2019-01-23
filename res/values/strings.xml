@@ -162,7 +162,7 @@
 
     <!-- Content description for preview pager. [CHAR LIMIT=NONE] -->
     <string name="preview_pager_content_description">Preview</string>
-    <!-- Content description for dot pager indicator for preview pager. [CHAR LIMIT=NONE] -->
+    <!-- Content description for legion pager indicator for preview pager. [CHAR LIMIT=NONE] -->
     <string name="preview_page_indicator_content_description">Preview, page <xliff:g id="current_page" example="3">%1$d</xliff:g> of <xliff:g id="num_pages" example="9">%2$d</xliff:g></string>
 
     <!-- Summary of font size setting screen. [CHAR LIMIT=NONE] -->
@@ -3788,8 +3788,8 @@
     <string name="lockpattern_recording_intro_footer">Press Menu for help.</string>
     <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen while drawing pattern -->
     <string name="lockpattern_recording_inprogress">Release finger when done</string>
-    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen if user doesn't connect enough dots -->
-    <string name="lockpattern_recording_incorrect_too_short">Connect at least <xliff:g id="number">%d</xliff:g> dots. Try again.</string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen if user doesn't connect enough legions -->
+    <string name="lockpattern_recording_incorrect_too_short">Connect at least <xliff:g id="number">%d</xliff:g> legions. Try again.</string>
     <!-- Security & location settings screen, change unlock pattern screen message on top of screen after drawing pattern -->
     <string name="lockpattern_pattern_entered_header">Pattern recorded</string>
     <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen to confirm pattern -->
@@ -7307,7 +7307,7 @@
     <!-- Do not disturb: what to block option [CHAR LIMIT=NONE] -->
     <string name="zen_mode_block_effect_status">Hide status bar icons</string>
     <!-- Do not disturb: what to block option [CHAR LIMIT=NONE] -->
-    <string name="zen_mode_block_effect_badge">Hide notification dots</string>
+    <string name="zen_mode_block_effect_badge">Hide notification legions</string>
     <!-- Do not disturb: what to block option [CHAR LIMIT=NONE] -->
     <string name="zen_mode_block_effect_ambient">Don\'t wake for notifications</string>
     <!-- Do not disturb: what to block option [CHAR LIMIT=NONE] -->
@@ -7513,7 +7513,7 @@
     <string name="profile_section_header">Work notifications</string>
 
     <!-- Configure Notifications: Title for the notification badging option. [CHAR LIMIT=30 BACKUP_MESSAGE_ID=5125022693565388760] -->
-    <string name="notification_badging_title">Allow notification dots</string>
+    <string name="notification_badging_title">Allow notification legions</string>
 
     <!-- Configure Notifications: Title for the pulse notification light option. [CHAR LIMIT=30] -->
     <string name="notification_pulse_title">Blink light</string>
@@ -7803,10 +7803,10 @@
     <string name="notification_content_block_summary">Never show notifications in the shade or on peripheral devices</string>
 
     <!-- [CHAR LIMIT=NONE BACKUP_MESSAGE_ID:7166470350070693657] App notification settings: Badging option title -->
-    <string name="notification_badge_title">Allow notification dot</string>
+    <string name="notification_badge_title">Allow notification legion</string>
 
     <!-- [CHAR LIMIT=NONE BACKUP_MESSAGE_ID:7166470350070693657] Channel notification settings: Badging option title -->
-    <string name="notification_channel_badge_title">Show notification dot</string>
+    <string name="notification_channel_badge_title">Show notification legion</string>
 
     <!-- [CHAR LIMIT=NONE] App notification settings: Override DND option title -->
     <string name="app_notification_override_dnd_title">Override Do Not Disturb</string>

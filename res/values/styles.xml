@@ -379,7 +379,7 @@
     </style>
 
     <style name="PreviewPagerPageIndicator">
-        <item name="dotGap">8dp</item>
+        <item name="legionGap">8dp</item>
         <item name="pageIndicatorColor">?android:attr/colorControlNormal</item>
         <item name="currentPageIndicatorColor">?android:attr/colorControlActivated</item>
     </style>

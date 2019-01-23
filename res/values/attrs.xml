@@ -106,8 +106,8 @@
 
     <!-- For DotsPageIndicator -->
     <declare-styleable name="DotsPageIndicator">
-        <attr name="dotDiameter" format="dimension" />
-        <attr name="dotGap" format="dimension" />
+        <attr name="legionDiameter" format="dimension" />
+        <attr name="legionGap" format="dimension" />
         <attr name="animationDuration" format="integer" />
         <attr name="pageIndicatorColor" format="color" />
         <attr name="currentPageIndicatorColor" format="color" />

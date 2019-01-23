@@ -91,7 +91,7 @@
     <color name="message_icon_background_outgoing">#4285f4</color>
     <color name="message_icon_text_outgoing">#ffffffff</color>
 
-    <color name="usage_graph_dots">#B0BEC5</color>
+    <color name="usage_graph_legions">#B0BEC5</color>
 
     <!-- Gestures settings -->
     <color name="gestures_setting_background_color">#ffffff</color>

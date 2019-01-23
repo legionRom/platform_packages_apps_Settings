@@ -200,7 +200,7 @@
     <dimen name="redaction_vertical_margins">8dp</dimen>
 
     <!-- Fingerprint -->
-    <dimen name="fingerprint_dot_radius">8dp</dimen>
+    <dimen name="fingerprint_legion_radius">8dp</dimen>
     <dimen name="fingerprint_pulse_radius">50dp</dimen>
     <item name="fingerprint_sensor_location_fraction_x" type="fraction">50%</item>
     <item name="fingerprint_sensor_location_fraction_y" type="fraction">30%</item>

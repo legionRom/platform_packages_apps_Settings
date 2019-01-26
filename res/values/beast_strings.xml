@@ -59,8 +59,8 @@
     <string name="ok_string">Ok</string>
  
     <!-- Beast -->
-    <string name="beast_settings_title">BeastSettings</string>
-    <string name="beast_settings_summary">Get A Beast</string>
+    <string name="beast_settings_title">Beast Settings</string>
+    <string name="beast_settings_summary">Tweak your Beast!</string>
 
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">In-call vibration options</string>

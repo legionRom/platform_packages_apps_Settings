@@ -111,8 +111,7 @@
             android:usesCleartextTraffic="true"
             android:defaultToDeviceProtectedStorage="true"
             android:directBootAware="true"
-            android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-            android:persistent="true">
+            android:appComponentFactory="android.support.v4.app.CoreComponentFactory">
 
         <uses-library android:name="org.apache.http.legacy" />
         <!-- Settings -->
@@ -3406,16 +3405,6 @@
             <meta-data android:name="com.android.settings.summary"
                 android:resource="@string/beast_settings_summary"/>
         </activity>
-		
-        <service android:enabled="true"
-          android:name=".AudioEnhancerService">
-        </service>
-
-        <receiver android:name=".cyanogenmod.DiracBootReceiver" android:enabled="true">
-            <intent-filter android:priority="2147483647">
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-            </intent-filter>
-        </receiver>
 
     </application>
 </manifest>

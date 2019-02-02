@@ -14,16 +14,14 @@ import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v7.preference.TwoStatePreference;
-import android.widget.Toast;
 
 public class DiracSettings extends SettingsPreferenceFragment {
 
     private static final String KEY_MI_SOUND_ENHANCER = "mi_sound_enhancer";
     private static final String KEY_HEADSET_TYPE = "dirac_headsets";
     private static final String KEY_MUSIC_MODE = "dirac_mode";
-    private static final String KEY_DIRAC_PRESET = "dirac_preset";
     private TwoStatePreference mEnableDisableDirac;
-    private ListPreference mHeadsetType, mMusicMode, mDiracPreset;
+    private ListPreference mHeadsetType, mMusicMode;
     private Context mContext;
 
     @Override
@@ -45,13 +43,10 @@ public class DiracSettings extends SettingsPreferenceFragment {
         });
         mHeadsetType = (ListPreference) findPreference(KEY_HEADSET_TYPE);
         mMusicMode = (ListPreference) findPreference(KEY_MUSIC_MODE);
-        mDiracPreset = (ListPreference) findPreference(KEY_DIRAC_PRESET);
 
         if (AudioEnhancerService.du.hasInitialized()) {
           mHeadsetType.setValue(Integer.toString(AudioEnhancerService.du.getHeadsetType(mContext)));
-          mDiracPreset.setValue(AudioEnhancerService.du.getLevel(mContext));
         }
-
         mHeadsetType.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
           public boolean onPreferenceChange(Preference preference, Object newValue) {
             int val = Integer.parseInt(newValue.toString());
@@ -67,15 +62,6 @@ public class DiracSettings extends SettingsPreferenceFragment {
             return true;
           }
         });
-
-        mDiracPreset.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
-          public boolean onPreferenceChange(Preference preference, Object newValue) {
-            Toast.makeText(mContext,String.valueOf(newValue),Toast.LENGTH_SHORT).show();
-            AudioEnhancerService.du.setLevel(mContext, String.valueOf(newValue));
-            return true;
-          }
-        });
-        
         removePreference(KEY_MUSIC_MODE);
     }
 

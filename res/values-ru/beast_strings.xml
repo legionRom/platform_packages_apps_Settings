@@ -157,14 +157,6 @@
     <string name="display_rotation_180_title">180 градусов</string>
     <string name="display_rotation_270_title">270 градусов</string>
 
-    <!-- QS header styles -->
-    <string name="qs_header_style_title">Стиль быстрых настроек</string>
-    <string name="qs_header_black">Черный</string>
-    <string name="qs_header_grey">Серый</string>
-    <string name="qs_header_lightgrey">Светло-серый</string>
-    <string name="qs_header_accent">Акцент на фоне</string>
-    <string name="qs_header_transparent">Прозрачный</string>
-
     <!-- Volume Steps -->
     <string name="volume_steps_title">Шаг громкости</string>
     <string name="volume_steps_summary">Количество шагов</string>

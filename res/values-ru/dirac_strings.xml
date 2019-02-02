@@ -3,6 +3,4 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="dirac_settings">Настройки Dirac</string>
     <string name="mi_sound_enhancer">Улучшение звука</string>
-    <string name="mi_headset_type">Тип наушников</string>
-    <string name="mi_mode_select">Режим</string>
 </resources>

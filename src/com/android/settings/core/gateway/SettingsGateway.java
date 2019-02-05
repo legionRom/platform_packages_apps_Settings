@@ -61,7 +61,6 @@ import com.android.settings.connecteddevice.AdvancedConnectedDeviceDashboardFrag
 import com.android.settings.connecteddevice.ConnectedDeviceDashboardFragment;
 import com.android.settings.connecteddevice.PreviouslyConnectedDeviceDashboardFragment;
 import com.android.settings.connecteddevice.usb.UsbDetailsFragment;
-import com.android.settings.custom.ScreenStabilization;
 import com.android.settings.datausage.DataUsageList;
 import com.android.settings.datausage.DataUsageSummary;
 import com.android.settings.datausage.DataUsageSummaryLegacy;
@@ -270,9 +269,7 @@ public class SettingsGateway {
             DirectoryAccessDetails.class.getName(),
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
-            BeastSettings.class.getName(),
 			BeastSettings.class.getName(),
-			ScreenStabilization.class.getName(),
             NavigationSettingsActivity.class.getName(),
             SmartbarSettingsActivity.class.getName(),
             FlingSettingsActivity.class.getName(),
@@ -316,8 +313,6 @@ public class SettingsGateway {
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.MyDeviceInfoActivity.class.getName(),
             Settings.BeastSettingsActivity.class.getName(),
-	    Settings.BeastSettingsActivity.class.getName(),
-	    Settings.ScreenStabilizationActivity.class.getName(),
             Settings.NavigationSettingsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),
             Settings.FlingSettingsActivity.class.getName(),

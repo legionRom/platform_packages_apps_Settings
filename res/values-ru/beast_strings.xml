@@ -165,12 +165,6 @@
     <string name="selinux_status_disabled">Отключен</string>
     <string name="selinux_status_permissive">Разрешающий</string>
     <string name="selinux_status_enforcing">Блокировка</string>
-
-   <!-- Full Nav Bar -->
-    <string name="full_gesture_mode_title">Включить режим жестов</string>
-    <string name="full_gesture_mode_summary">Этот режим отключает кнопку Назад. Вы можете активировать действие кнопки Назад с помощью свайпа влево на навбаре. Свайп вправо открывает последнее приложение и обзор недавних приложений. Чтобы вернуться на домашний экран вы можете использовать любое свободное место на навбаре, а не только домашнюю кнопку. Когда откыта клавиатура, длительное нажатие на навбаре передвигает курсор.</string>
-    <string name="full_gesture_mode_dt2s_title">Включить двойное нажатие для сна</string>
-    <string name="full_gesture_mode_dt2s_summary">Дважды нажмите на свободном месте навбара чтобы выключить экран.</string>
 	
     <string name="font_picker_title">Менеджер шрифта</string>
     <string name="font_picker_progress">Применить нужный шрифт\u2026</string>

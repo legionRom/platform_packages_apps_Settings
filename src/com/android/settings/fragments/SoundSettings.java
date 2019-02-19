@@ -1,4 +1,4 @@
-package com.lean.settings.fragments;
+package com.legion.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -32,6 +32,6 @@ public class SoundSettings extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.BEAST;
+        return MetricsProto.MetricsEvent.LEGION;
     }
 }

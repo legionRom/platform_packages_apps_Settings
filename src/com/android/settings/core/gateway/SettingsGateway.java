@@ -142,7 +142,7 @@ import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
-import com.beast.settings.BeastSettings;
+import com.legion.settings.LegionSettings;
 
 public class SettingsGateway {
 
@@ -269,7 +269,7 @@ public class SettingsGateway {
             DirectoryAccessDetails.class.getName(),
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
-			BeastSettings.class.getName(),
+			LegionSettings.class.getName(),
             NavigationSettingsActivity.class.getName(),
             SmartbarSettingsActivity.class.getName(),
             FlingSettingsActivity.class.getName(),
@@ -312,7 +312,7 @@ public class SettingsGateway {
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.MyDeviceInfoActivity.class.getName(),
-            Settings.BeastSettingsActivity.class.getName(),
+            Settings.LegionSettingsActivity.class.getName(),
             Settings.NavigationSettingsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),
             Settings.FlingSettingsActivity.class.getName(),

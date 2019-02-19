@@ -53,5 +53,5 @@
 }
 -keep class android.support.v4.app.CoreComponentFactory
 
-# BeastSettings
--keep class com.beast.settings.**
+# legionSettings
+-keep class com.legion.settings.**

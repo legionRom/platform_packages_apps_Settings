@@ -145,8 +145,8 @@
 		
     <Preference
          android:key="omni_theme_select_activity"
-         android:title="@string/beast_theme_select_title"
-         android:summary="@string/beast_theme_select_summary"
+         android:title="@string/legion_theme_select_title"
+         android:summary="@string/legion_theme_select_summary"
          android:persistent="false" >
          <intent android:action="android.intent.action.MAIN"
                  android:targetPackage="org.omnirom.omnistyle"

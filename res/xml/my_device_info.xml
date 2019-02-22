@@ -28,13 +28,13 @@
         android:selectable="false"/>
 		
     <!-- OTA -->
-    <Preference android:key="beast_updates"
+    <Preference android:key="legion_updates"
         android:order="1"
-        android:title="@string/beastupdate_settings_title"
-        android:summary="@string/beastupdate_settings_summary">
+        android:title="@string/legionupdate_settings_title"
+        android:summary="@string/legionupdate_settings_summary">
         <intent android:action="android.intent.action.MAIN"
-            android:targetPackage="org.beast.ota"
-            android:targetClass="org.beast.ota.activities.UpdaterActivity" />
+            android:targetPackage="org.legion.ota"
+            android:targetClass="org.legion.ota.activities.UpdaterActivity" />
     </Preference>
 
     <!-- Device name -->

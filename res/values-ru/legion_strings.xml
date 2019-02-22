@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
-* Copyright (C) 2019 BeastROMS
+* Copyright (C) 2019 LegionROMS
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -52,9 +52,9 @@
     <string name="battery_stats_message">Статистика батареи будет сброшена</string>
     <string name="ok_string">ОК</string>
  
-    <!-- Beast -->
-    <string name="beast_settings_title">Настройки Beast</string>
-    <string name="beast_settings_summary">Настрой своего Зверя!</string>
+    <!-- Legion -->
+    <string name="legion_settings_title">Настройки Legion</string>
+    <string name="legion_settings_summary">Настрой своего Зверя!</string>
 
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Варианты вибрации при вызове</string>
@@ -122,14 +122,14 @@
      <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">Мелодия звонка SIM2</string>
 
-    <!-- Beast Version -->
-    <string name="beast_version">Версия Beast</string>
-    <string name="beast_version_default">1.0</string>
+    <!-- Legion Version -->
+    <string name="legion_version">Версия Legion</string>
+    <string name="legion_version_default">1.0</string>
 
     <!-- Omni Themes -->
-    <string name="beast_theme_select_title">Тема системы</string>
+    <string name="legion_theme_select_title">Тема системы</string>
     <string name="omni_theme_select_none">Отключить</string>
-    <string name="beast_theme_select_summary">Поиск и выбор установленных тем</string>
+    <string name="legion_theme_select_summary">Поиск и выбор установленных тем</string>
 
     <!-- Custom light color -->
     <string name="custom_light_title">Цвет светодиода</string>
@@ -302,8 +302,8 @@
     <string name="expanded_desktop_style_description">Выбрать режим расширенного экрана по умолчанию</string>
 	
     <!-- OTA -->
-    <string name="beastupdate_settings_title">Обновления BeastROMs</string>
-    <string name="beastupdate_settings_summary">Поиск обновлений</string>
+    <string name="legionupdate_settings_title">Обновления LegionROMs</string>
+    <string name="legionupdate_settings_summary">Поиск обновлений</string>
 	
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Связать громкость звонка и уведомлений</string>

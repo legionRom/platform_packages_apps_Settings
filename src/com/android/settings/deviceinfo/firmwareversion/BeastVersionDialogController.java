@@ -21,23 +21,23 @@ import android.support.annotation.VisibleForTesting;
 
 import com.android.settings.R;
 
-public class BeastVersionDialogController {
+public class LegionVersionDialogController {
 
     @VisibleForTesting
-    private static final int BEAST_VERSION_VALUE_ID = R.id.beast_version;
-    private static final String BEAST_VERSION = "beast_version";
-    private static final String BEAST_PROP = "ro.beast.display.version";
+    private static final int LEGION_VERSION_VALUE_ID = R.id.legion_version;
+    private static final String LEGION_VERSION = "legion_version";
+    private static final String LEGION_PROP = "ro.legion.display.version";
 
     private final FirmwareVersionDialogFragment mDialog;
     private final Context mContext;
 
-    public BeastVersionDialogController(FirmwareVersionDialogFragment dialog) {
+    public LegionVersionDialogController(FirmwareVersionDialogFragment dialog) {
         mDialog = dialog;
         mContext = dialog.getContext();
     }
 
     public void initialize() {
-         mDialog.setText(BEAST_VERSION_VALUE_ID, SystemProperties.get(BEAST_PROP,
+         mDialog.setText(LEGION_VERSION_VALUE_ID, SystemProperties.get(LEGION_PROP,
                 mContext.getResources().getString(R.string.device_info_default)));
     }
 }

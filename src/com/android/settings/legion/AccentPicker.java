@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.beast;
+package com.android.settings.legion;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -435,6 +435,6 @@ public class AccentPicker extends InstrumentedDialogFragment implements OnClickL
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.BEAST;
+        return MetricsProto.MetricsEvent.LEGION;
     }
 }

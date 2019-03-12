@@ -129,7 +129,7 @@
     <string name="ringtone2_title">Phone ringtone - SIM 2</string>
 
     <!-- Legion Version -->
-    <string name="legion_version">LegionROMs version</string>
+    <string name="legion_version">LEGIONOS version</string>
     <string name="legion_version_default">9.0</string>
 
     <!-- Omni Themes -->

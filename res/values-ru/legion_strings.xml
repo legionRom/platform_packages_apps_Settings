@@ -302,7 +302,7 @@
     <string name="expanded_desktop_style_description">Выбрать режим расширенного экрана по умолчанию</string>
 	
     <!-- OTA -->
-    <string name="legionupdate_settings_title">Обновления LegionROMs</string>
+    <string name="legionupdate_settings_title">Обновления LEGIONOS</string>
     <string name="legionupdate_settings_summary">Поиск обновлений</string>
 	
     <!-- Volume link notification -->

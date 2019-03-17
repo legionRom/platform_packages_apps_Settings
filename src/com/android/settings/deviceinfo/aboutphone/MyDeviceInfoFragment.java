@@ -169,15 +169,13 @@ public class MyDeviceInfoFragment extends Fragment
     public static void setInfo(String prop, TextView textview) {
         if (TextUtils.isEmpty(SystemProperties.get(prop))) {
             textview.setText("Unknown");
-        } else {
-            if (prop == "ro.processor.model") {
+        } else if (prop == "ro.processor.model" || prop == "ro.pearl.maintainer") {
                 String model = SystemProperties.get(prop);
                 model = model.replace("_", " ");
                 textview.setText(model);
-            } else {
+            } else {    
                 textview.setText(SystemProperties.get(prop));
             }
-        }
     }
 
     //Get SELinux status

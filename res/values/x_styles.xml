@@ -14,14 +14,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>	
-    <style name="BatteryGauage_TextView">
-    </style>
-
-    <style name="BatteryGauage_TextView_Light">
-    </style>
-
+<resources>
     <declare-styleable name="Themes">
-       <attr name="waveViewStyle" format="reference"/>
+        <attr name="waveViewStyle" format="reference"/>
     </declare-styleable>
 </resources>

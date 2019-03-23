@@ -26,16 +26,6 @@
         android:order="0"
         android:layout="@layout/settings_entity_header"
         android:selectable="false"/>
-		
-    <!-- OTA 
-    <Preference android:key="legion_updates"
-        android:order="1"
-        android:title="@string/legionupdate_settings_title"
-        android:summary="@string/legionupdate_settings_summary">
-        <intent android:action="android.intent.action.MAIN"
-            android:targetPackage="org.legion.ota"
-            android:targetClass="org.legion.ota.activities.UpdaterActivity" />
-    </Preference> -->
 
     <!-- Device name -->
     <com.android.settings.widget.ValidatedEditTextPreference

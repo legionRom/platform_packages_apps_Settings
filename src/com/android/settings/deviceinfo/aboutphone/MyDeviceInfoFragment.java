@@ -49,7 +49,6 @@ import com.android.settings.Utils;
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.dashboard.SummaryLoader;
-
 import com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDialogFragment;
 import com.android.settings.deviceinfo.devicestatus.DeviceStatusFragment;
 import com.android.settings.widget.EntityHeaderController;

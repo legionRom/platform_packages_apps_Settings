@@ -71,7 +71,7 @@
                 android:targetClass="@string/additional_system_update_menu" />
     </Preference> -->
     <Preference android:key="legion_updates"
-        android:order="1"
+        android:order="-1000"
         android:title="@string/legionupdate_settings_title"
 	android:icon="@drawable/ic_system_update"
         android:summary="@string/legionupdate_settings_summary">
@@ -79,5 +79,14 @@
             android:targetPackage="org.legion.ota"
             android:targetClass="org.legion.ota.activities.UpdaterActivity" />
     </Preference>
+
+	<!-- About us -->
+    <Preference
+        android:key="legion_about_info"
+        android:order="-1500"
+        android:title="@string/legion_about_info"
+        android:summary="@string/legion_about_summary"
+        android:fragment="com.android.settings.AboutUs"
+	android:icon="@drawable/ic_settings_legion" />
 
 </PreferenceScreen>

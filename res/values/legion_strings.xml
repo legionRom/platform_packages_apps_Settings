@@ -327,6 +327,25 @@
 	
     <string name="battery_charging">Charging</string>
     <string name="battery_discharging">Discharging</string>
+	
+    <!-- About LegionOS -->
+    <string name="legion_about_info">About Us</string>
+    <string name="legion_about_summary">Intro to LegionOS</string>
+    <string name="legion_about_info_summary">LegionOS is an AOSP based Rom which is concentrating on minimal features as well performance</string>
+    <string name="dev_info">About LegionOS</string>
+    <string name="leads">Team Leads</string>
+    <string name="github">Github</string>
+    <string name="github_description">View our source code</string>
+    <string name="telegram">Telegram</string>
+    <string name="telegram_description">Join our Telegram discussion group</string>
+    <string name="web">Download Center</string>
+    <string name="web_description">Download Portal</string>
+    <string name="maintainers">Maintainers</string>
+    <string name="dev_1">rajkale99</string>
+    <string name="dev1_description">Founder , Lead Developer</string>
+    <string name="maintainer_description">Maintains for %1$s</string>
+    <string name="donate">Donate</string>
+    <string name="donate_description">Support Us</string>
 
     <!-- Selinux -->
     <string name="selinux_status">SELinux status</string>
@@ -341,6 +360,7 @@
     <string name="card4">Legion Version</string>
     <string name="card5">SeLinux Status</string>
     <string name="card6">Maintainer</string>
+    <string name="card7">AboutUs</string>
     <string name="cpu">CPU</string>
     <string name="unknown">Unknown</string>
     <string name="storage">Storage</string>
@@ -354,3 +374,4 @@
     <string name="qs_header_accent">Accent Based</string>
     <string name="qs_header_transparent">Transparent</string>
 </resources>
+

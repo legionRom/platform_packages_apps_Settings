@@ -10,7 +10,7 @@
     <string name="card1">Device Model</string>
     <string name="card2">Status</string>
     <string name="card3">Android Version</string>
-    <string name="card4">Pearl Version</string>
+    <string name="card4">LegionOS Version</string>
     <string name="card5">SeLinux Status</string>
     <string name="card6">Maintainer</string>
     <string name="cpu">CPU</string>

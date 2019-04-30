@@ -104,13 +104,13 @@ public class MyDeviceInfoFragment extends Fragment
         setInfo("ro.build.version.release", version);
 
         TextView romver = (TextView)view.findViewById(R.id.textView42);
-        setInfo("ro.pearl.display.version", romver);
+        setInfo("ro.legion.display.version", romver);
 
         TextView selinux = (TextView)view.findViewById(R.id.textView52);
         setSelinux(selinux);
 
         TextView maintainer = (TextView)view.findViewById(R.id.textView62);
-        setInfo("ro.pearl.maintainer", maintainer);
+        setInfo("ro.legion.maintainer", maintainer);
 
         //Add click listeners
         if (view != null) {

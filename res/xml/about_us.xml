@@ -25,7 +25,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             <intent
                android:action="android.intent.action.VIEW"
                android:data="https://legionos.ml"
-	       android:icon="@drawable/ic_settings_legion" />
+	       android:icon="@drawable/ic_settings_about" />
       </Preference>
 
         <Preference

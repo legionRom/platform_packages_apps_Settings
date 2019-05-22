@@ -87,6 +87,6 @@
         android:title="@string/legion_about_info"
         android:summary="@string/legion_about_summary"
         android:fragment="com.android.settings.AboutUs"
-	android:icon="@drawable/ic_settings_legion" />
+	android:icon="@drawable/ic_settings_about" />
 
 </PreferenceScreen>

@@ -16,21 +16,21 @@
     <string-array name="maintainers_title" translatable="false">
         <item>Raj Kale</item>
         <item>Lucas</item>
-	<item>Prashant</item>
+	<item>Prashanr</item>
    </string-array>
 
     <!-- Devices maintained by maintainer -->
     <string-array name="maintainers_devices" translatable="false">
         <item>Xiaomi Redmi 5 Plus (vince)</item>
         <item>Moto G5s Plus (sanders)</item>
-	<item>Smartron Srt (timo02a)</item>
+	<item>Smartron Srt (rimo02a)</item>
      </string-array>
 
     <!-- Telegram URL of maintainer -->
     <string-array name="maintainers_url" translatable="false">
         <item>https://t.me/rajkale99</item>
         <item>https://t.me/pintos</item>
-	<item>https://t.me/prashantt41</item>
+	<item>htt
      </string-array>
 
 </resources>

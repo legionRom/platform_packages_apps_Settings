@@ -23,7 +23,7 @@
     <string-array name="maintainers_devices" translatable="false">
         <item>Xiaomi Redmi 5 Plus (vince)</item>
         <item>Moto G5s Plus (sanders)</item>
-	<item>Smartron Srt (timo02a)</item>
+	<item>Smartron Srt (rimo02a)</item>
      </string-array>
 
     <!-- Telegram URL of maintainer -->

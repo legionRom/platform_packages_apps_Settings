@@ -62,20 +62,19 @@
             android:id="@+id/search_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            app:cardCornerRadius="12dp"
+            android:layout_margin="@dimen/search_bar_margin"
+            app:cardCornerRadius="@dimen/search_bar_corner_radius"
+            app:cardBackgroundColor="?android:attr/colorBackground"
             app:cardElevation="3dp">
-
             <Toolbar
                 android:id="@+id/search_action_bar"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="@drawable/rounded_outline_bg"
                 android:clickable="true"
-                android:clipChildren="true"
-                android:foreground="?android:attr/selectableItemBackground"
+                android:alpha="0.85"
+                android:background="@drawable/search_bar_selected_background"
                 android:contentInsetStartWithNavigation="64dp"
-                android:navigationIcon="@drawable/ic_search_24dp"
+                android:navigationIcon="@drawable/ic_homepage_search"
                 android:theme="?android:attr/actionBarTheme">
 
                 <TextView

@@ -104,13 +104,13 @@ public class MyDeviceInfoFragment extends Fragment
         setInfo("ro.build.version.release", version);
 
         TextView romver = (TextView)view.findViewById(R.id.textView42);
-        setInfo("ro.pearl.display.version", romver);
+        setInfo("ro.legion.display.version", romver);
 
         TextView selinux = (TextView)view.findViewById(R.id.textView52);
         setSelinux(selinux);
 
         TextView maintainer = (TextView)view.findViewById(R.id.textView62);
-        setInfo("ro.pearl.maintainer", maintainer);
+        setInfo("ro.legion.maintainer", maintainer);
 
         //Add click listeners
         if (view != null) {
@@ -169,7 +169,7 @@ public class MyDeviceInfoFragment extends Fragment
     public static void setInfo(String prop, TextView textview) {
         if (TextUtils.isEmpty(SystemProperties.get(prop))) {
             textview.setText("Unknown");
-        } else if (prop == "ro.processor.model" || prop == "ro.pearl.maintainer") {
+        } else if (prop == "ro.processor.model" || prop == "ro.legion.maintainer") {
                 String model = SystemProperties.get(prop);
                 model = model.replace("_", " ");
                 textview.setText(model);

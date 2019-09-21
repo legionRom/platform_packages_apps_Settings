@@ -5,6 +5,10 @@
     <!--LegionOS-->
     <string name="legion_title" translatable="false">LegionOS</string>
 
+    <!-- Legion Settings -->
+    <string name="legion_settings_title">Legion Settings</string>
+    <string name="legion_dashboard_summary">Customization lab</string>
+
     <!-- About phone screen, legion version -->
     <string name="legion_version">Legion version</string>
     <string name="legion_version_default">Unknown</string>

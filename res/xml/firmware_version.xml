@@ -26,29 +26,13 @@
     android:layout="@layout/legion_logo"
     android:key="legion_logo" />
 
-    <!-- Android version -->
+    <!-- Android version 
     <Preference
         android:key="os_firmware_version"
         android:title="@string/firmware_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
-
-	<!-- Legion Logo -->
-      <LinearLayout
-    	  android:gravity="center"
-	      android:layout_width="match_parent"
-	      android:layout_height="wrap_content"
-        android:selectable="false">
-
-    <ImageView
-	       android:layout_width="match_parent"
- 	       android:layout_height="match_parent"
-	       android:src="@drawable/ic_legion_logo"
-	       android:adjustViewBounds="true"
-	       android:scaleType="centerInside" />
-
-</LinearLayout>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController" -->
 
     <!-- Security patch -->
     <Preference

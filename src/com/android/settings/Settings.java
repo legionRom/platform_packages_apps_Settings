@@ -177,4 +177,6 @@ public class Settings extends SettingsActivity {
     public static class AccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
 
+    // LegionSettings
+    public static class LegionSettingsActivity extends SettingsActivity {}
 }

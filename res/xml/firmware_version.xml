@@ -24,7 +24,24 @@
 
 <PreferenceScreen
     android:layout="@layout/legion_logo"
-    android:key="legion_logo" />
+    android:key="legion_logo"
+    android:selectable="false" />
+
+    <!-- legion version -->
+    <Preference
+        android:key="legion_version"
+        android:title="@string/legion_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.legionVersionPreferenceController"/>
+
+    <!-- Build date -->
+    <Preference
+        android:key="build_date"
+        android:title="@string/build_date"
+        android:summary="@string/build_date_default"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.BuildDatePreferenceController"/>
 
     <!-- Security patch -->
     <Preference

@@ -74,6 +74,14 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
 
+    <!-- Android version -->
+    <Preference
+        android:key="firmware_version"
+        android:title="@string/firmware_version"
+        android:summary="@string/summary_placeholder"
+        android:fragment="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
+
     <!-- Build -->
     <Preference
         android:key="os_build_number"

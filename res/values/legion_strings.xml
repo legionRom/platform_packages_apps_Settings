@@ -21,4 +21,9 @@
 
 
     <string name="suggestion_button_close">Close</string>
+
+    <!-- OTA -->
+    <string name="beastupdate_settings_title">LegionOS updates</string>
+    <string name="beastupdate_settings_summary">Find new updates</string>
+
 </resources>

@@ -104,6 +104,8 @@ public class MyDeviceInfoFragment extends DashboardFragment
     private static List<AbstractPreferenceController> buildPreferenceControllers(
             Context context, MyDeviceInfoFragment fragment, Lifecycle lifecycle) {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
+
+        controllers.add(new OTAPreferenceController(context));
         controllers.add(new SimStatusPreferenceController(context, fragment));
         controllers.add(new IpAddressPreferenceController(context, lifecycle));
         controllers.add(new WifiMacAddressPreferenceController(context, lifecycle));

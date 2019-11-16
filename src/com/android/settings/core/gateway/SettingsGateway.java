@@ -148,6 +148,7 @@ import com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.legion.settings.LegionSettings;
+import com.legion.settings.GamingMode;
 
 public class SettingsGateway {
 
@@ -285,6 +286,7 @@ public class SettingsGateway {
             MobileNetworkListFragment.class.getName(),
             GlobalActionsPanelSettings.class.getName(),
             LegionSettings.class.getName()
+            GamingMode.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -324,5 +326,6 @@ public class SettingsGateway {
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
             Settings.LegionSettingsActivity.class.getName(),
+            Settings.GamingModeActivity.class.getName(),
     };
 }

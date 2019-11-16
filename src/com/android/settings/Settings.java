@@ -176,7 +176,8 @@ public class Settings extends SettingsActivity {
     public static class StorageDashboardActivity extends SettingsActivity {}
     public static class AccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
-	
+
     public static class LegionSettingsActivity extends SettingsActivity { /* empty */ }
 
+    public static class GamingModeActivity extends SettingsActivity {}
 }

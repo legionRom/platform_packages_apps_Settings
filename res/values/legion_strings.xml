@@ -19,6 +19,15 @@
     <string name="build_date_default">2015-01-01-0000</string>
     <string name="keywords_build_date">build date, build info</string>
 
+    <!-- About Phone screen, Maintainer Name -->
+    <string name="maintainer_name">Maintainer</string>
+    <string name="maintainer_name_default">Unknown</string>
+    <string name="keywords_maintainer_name">Maintainer Name</string>
+
+    <!-- About Phone screen, Processor -->
+    <string name="cpu_name">CPU</string>
+    <string name="cpu_name_default">Unknown</string>
+    <string name="keywords_cpu_name">Snapdragon X</string>
 
     <string name="suggestion_button_close">Close</string>
 

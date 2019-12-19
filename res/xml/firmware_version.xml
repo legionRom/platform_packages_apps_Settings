@@ -74,12 +74,22 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
 
-    <!-- Android version 
-    Preference
-        android:key="firmware_version"
-        android:title="@string/firmware_version"
+    <!-- CPU version -->
+    <Preference
+        android:key="cpu_name"
+        android:title="@string/cpu_name" 
+        android:summary="@string/summary_placeholder" 
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.cpunamePreferenceController"/>
+
+    <!-- Maintainer Name -->
+    <Preference
+        android:key="maintainer_name"
+        android:title="@string/maintainer_name"
         android:summary="@string/summary_placeholder"
-        -->
+        settings:enableCopying="true"
+	settings:controller="com.android.settings.deviceinfo.firmwareversion.maintainernamePreferenceController"/>
+
     <!-- SELinux -->
     <Preference
         android:key="selinux_status"

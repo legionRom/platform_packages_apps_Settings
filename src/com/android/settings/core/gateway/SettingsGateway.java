@@ -285,7 +285,7 @@ public class SettingsGateway {
             BatterySaverScheduleSettings.class.getName(),
             MobileNetworkListFragment.class.getName(),
             GlobalActionsPanelSettings.class.getName(),
-            LegionSettings.class.getName()
+            LegionSettings.class.getName(),
             GamingMode.class.getName(),
     };
 

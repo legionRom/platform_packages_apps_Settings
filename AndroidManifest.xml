@@ -3310,7 +3310,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.msm.xtended.fragments.GamingMode" />
+                android:value="com.legion.settings.GamingMode" />
         </activity>
     </application>
 </manifest>

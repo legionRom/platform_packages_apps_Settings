@@ -72,7 +72,7 @@ import androidx.preference.*;
 import java.util.Collections;
 import java.util.List;
 
-import com.colt.settings.preference.SystemSettingMasterSwitchPreference;
+import com.legion.settings.preference.SystemSettingMasterSwitchPreference;
 /**
  * Displays a list of apps and subsystems that consume power, ordered by how much power was
  * consumed since the last time it was unplugged.

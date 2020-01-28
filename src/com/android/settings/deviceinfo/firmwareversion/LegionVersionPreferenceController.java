@@ -29,7 +29,7 @@ import com.android.settings.core.BasePreferenceController;
 public class LegionVersionPreferenceController extends BasePreferenceController {
 
     @VisibleForTesting
-    static final String LEGION_VERSION_PROPERTY = "ro.modversion";
+    static final String LEGION_VERSION_PROPERTY = "ro.legionversion";
 
     public LegionVersionPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);

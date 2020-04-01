@@ -320,12 +320,12 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment
         // 2 means lower third of the screen
         // 3 means lower sixth of the screen
         Settings.System.putInt(context.getContentResolver(),
-                Settings.System.BACK_GESTURE_HEIGHT, height);
+                Settings.System.OMNI_BACK_GESTURE_HEIGHT, height);
     }
 
     static int getBackHeight(Context context) {
         return Settings.System.getInt(context.getContentResolver(),
-                Settings.System.BACK_GESTURE_HEIGHT, 0);
+                Settings.System.OMNI_BACK_GESTURE_HEIGHT, 0);
     }
 
     static int getPillToggleState(Context context) {
